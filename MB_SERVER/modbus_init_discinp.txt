@@ -1,0 +1,12 @@
+00000 CR_SCRAM           0
+00001 AF_MakeupPumpOnOff 1
+00002 SD_SafetyValvePos  0
+00003 TB_IsoValvePos     1
+00004 GN_GenBreak        1
+00005 CC_PumpOnOff       1
+00006 FW_Pump1OnOff      1
+00007 FW_Pump2OnOff      1
+00008 FW_Pump3OnOff      0
+00009 CE_Pump1OnOff      1
+00010 CE_Pump2OnOff      1
+00011 CE_Pump3OnOff      0

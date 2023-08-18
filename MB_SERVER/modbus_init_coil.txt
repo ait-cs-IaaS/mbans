@@ -1,0 +1,15 @@
+00000 RC1_PumpOnOffCmd      1
+00001 RC2_PumpOnOffCmd      1
+00002 CR_SCRAMCmd           0
+00003 PZ_BackupHeaterPowCmd 0
+00004 AF_MakeupPumpCmd      1
+00005 SD_SafetyValveCmd     0
+00006 TB_IsoValveCmd        1
+00007 CC_PumpOnOffCmd       1
+00008 FW_Pump1OnOffCmd      1
+00009 FW_Pump2OnOffCmd      1
+00010 FW_Pump3OnOffCmd      0
+00011 CE_Pump1OnOffCmd      1
+00012 CE_Pump2OnOffCmd      1
+00013 CE_Pump3OnOffCmd      0
+00014 INT_SimulationStopCmd 0
