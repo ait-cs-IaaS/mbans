@@ -43,7 +43,7 @@ Note that updating past this version of `pymodbus` is going to bork the client u
 
 The following directory structure is defined:
 
-'''
+```
 .
 ├── DEPENDENCIES
 │   └── libmbclient.so <-- see Requirements->mbclient
@@ -69,4 +69,4 @@ The following directory structure is defined:
 │   ├── alpha_mbans_HIL_RPS_ON <-- NPP simulation for external control (requires ferryman.py)
 │   └── release_mbans_STANDALONE <-- NPP standalone simulation (does not require ferryman.py)
 └── asherah_npp.sh <-- main script for running the different services
-''' 
+```
