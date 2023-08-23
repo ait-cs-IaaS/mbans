@@ -19,9 +19,9 @@ The University of São Paulo, Brazil, are responsible for the model's developmen
 
 mbclient is a shared library that allows a simple interface to implement Modbus client functionality in the simulator as well as other eventual applications. The shared library also allows independent applications and routines to share a single Modbus connection, in order to optimize resource usage.
 
-The shared library **libmclient.so** is used by the client functions implemented in the Asherah simulator and is based on the open-source Modbus implementation [libmodbus](https://libmodbus.org/).
+The shared library **libmbclient.so** is used by the client functions implemented in the Asherah simulator and is based on the open-source Modbus implementation [libmodbus](https://libmodbus.org/).
 
-Note that the libmclient.so has to be in folder **/usr/lib** in order to be accessible to the client applications. Check that the user has permissions for this file too!
+Note that the libmbclient.so has to be in folder **/usr/lib** in order to be accessible to the client applications. Check that the user has permissions for this file too!
 
 ### Ferryman
 
