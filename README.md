@@ -39,6 +39,17 @@ requests==2.31.0
 
 Note that updating past this version of `pymodbus` is going to bork the client used by `ferryman.py`
 
+### Ramdisk
+
+If you get the following error: `## MB_SRV: Failed to create file /ramdisk/discrete_inputs.txt` when executing the Modbus Server or `asherah_npp.sh` script, then you need to execute:
+
+```bash
+sudo mkdir /ramdisk
+sudo chmod 755 /ramdisk/
+```
+
+This will allow the Modbus Server to write the read-only signals to file…
+
 ## Directory Structure
 
 The following directory structure is defined:
