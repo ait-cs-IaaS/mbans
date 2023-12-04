@@ -81,3 +81,16 @@ The following directory structure is defined:
 │   └── release_mbans_STANDALONE <-- NPP standalone simulation (does not require ferryman.py)
 └── asherah_npp.sh <-- main script for running the different services
 ```
+
+## Configure
+
+* IP addresses in the ferryman script.
+* The simulation file executed by `asherah_npp.sh`
+
+## Usage
+
+Execute `sudo ./asherah_npp.sh`. This will:
+
+1. Start the Modbus server & wait 3 seconds.
+2. Start the nuclear simulator, and...
+3. Starts the the ferryman script which takes data to and from a PLC and the Modbus server.
