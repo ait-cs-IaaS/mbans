@@ -15,6 +15,11 @@ The University of São Paulo, Brazil, are responsible for the model's developmen
  
 ## Requirements
 
+### System
+
+* Linux OS (Tested on Ubuntu 20.04.6 LTS)
+* 4GB RAM (minimum), 8GB RAM (recommended)
+
 ### mbclient
 
 mbclient is a shared library that allows a simple interface to implement Modbus client functionality in the simulator as well as other eventual applications. The shared library also allows independent applications and routines to share a single Modbus connection, in order to optimize resource usage.
